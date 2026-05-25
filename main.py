@@ -95,5 +95,4 @@ if __name__ == "__main__":
 
     while True:
         schedule.run_pending()
-        time.sleep(30)   # cek jadw
-  al setiap 30 detik
+        time.sleep(30)   # cek jadwal setiap 30 detik
