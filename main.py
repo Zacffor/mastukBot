@@ -4,14 +4,6 @@ import time
 import requests
 import logging
 from datetime import datetime
-from dotenv import load_dotenv
-
-# Load variabel dari file .env (jika ada)
-load_dotenv()
-
-# ============================================================
-# KONFIGURASI DARI ENVIRONMENT VARIABLE
-# ============================================================
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")   # Ambil dari environment
 CHAT_ID   = os.getenv("CHAT_ID")     # Ambil dari environment
