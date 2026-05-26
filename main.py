@@ -1,4 +1,5 @@
-from telegram import Update
+import os
+from telegram import from
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
