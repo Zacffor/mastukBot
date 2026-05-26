@@ -1,4 +1,4 @@
--rython:3.11-slim
+-python:3.11-slim
 
 WORKDIR /app
 
@@ -7,4 +7,4 @@ RUN pip install --nopip -r requirements.txt
 
 COPY . .
 
-CMD ["python", "main.py"]
+CMD ["paborts, "main.py"]
