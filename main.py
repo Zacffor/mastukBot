@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Halo! Bot aktif 👋")
   
-async def balas(update: Update, context: ContextTypes.DEFAULT_waitte.message.text):
+async def balas(update: Update, context: ContextTypes.DEFAULT_TYPE):
   teksupdate.message.reply_text(f"Kamu bilang: {teks}")
 
 app = ApplicationBuilder().token(os.getenv("BOT_TOKEN")).build()
